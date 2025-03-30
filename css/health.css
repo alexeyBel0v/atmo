@@ -1,0 +1,46 @@
+<<<<<<< HEAD
+.health {
+    background: #fff;
+  }
+  .health p {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+  }
+  .card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .card-image img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  .card-content {
+    padding: 1rem;
+  }
+  .card-content .title {
+    color: #00796b;
+=======
+.health {
+    background: #fff;
+  }
+  .health p {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+  }
+  .card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .card-image img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  .card-content {
+    padding: 1rem;
+  }
+  .card-content .title {
+    color: #00796b;
+>>>>>>> 5c298408f855ec194b1b63a2e484582bfcd0c2f6
+  }

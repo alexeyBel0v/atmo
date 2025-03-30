@@ -1,0 +1,794 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Атмосферика</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/slideshow.css">
+  <link rel="stylesheet" href="css/process.css">
+  <link rel="stylesheet" href="css/promo.css">
+  <link rel="stylesheet" href="css/health.css">
+  <link rel="stylesheet" href="css/team.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <script src="js/gsap.min.js"></script>
+  <script src="js/animations.js" defer></script>
+</head>
+<body>
+  <!-- Шапка -->
+  <header class="header">
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <span class="icon"><img src="img/location.png" alt="Location"></span>
+        <p>г. Железнодорожный, мкр. Ольгино, ул. Главная, дом 5</p>
+      </div>
+      <div class="top-bar-right">
+        <span class="icon"><img src="img/phone.png" alt="Phone"></span>
+        <p><a href="tel:+74951093614">+7(495) 109-36-14</a></p>
+        <span class="icon"><img src="img/email.png" alt="Email"></span>
+        <p><a href="mailto:atmclinicru@yandex.ru">atmclinicru@yandex.ru</a></p>
+      </div>
+    </div>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-logo" href="#">
+          <img src="img/logo.png" alt="Атмосферика">
+        </a>
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="#home">Главная</a>
+          <a class="navbar-item" href="services.html">Услуги</a> <!-- Проверяем ссылку -->
+          <a class="navbar-item" href="#team">Врачи</a>
+          <a class="navbar-item" href="#promo">Акции</a>
+          <a class="navbar-item" href="#prices">Цены</a>
+          <a class="navbar-item" href="#contacts">Контакты</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Слайд-шоу -->
+  <section id="home" class="slideshow">
+    <div class="slides">
+      <div class="slide active" style="background-image: url('img/slide1.jpg');">
+        <div class="slide-content">
+          <h1>Верни себе свободу движения!</h1>
+          <p>Эффективное лечение опорно-двигательного аппарата с результатом после первого сеанса.</p>
+          <a href="#contacts" class="button is-primary">Записаться на приём</a>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('img/slide2.jpg');">
+        <div class="slide-content">
+          <h1>Здоровье без боли</h1>
+          <p>Индивидуальный подход и проверенные методики для вашего восстановления.</p>
+          <a href="services.html" class="button is-primary">Узнать больше</a> <!-- Проверяем ссылку -->
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('img/slide3.jpg');">
+        <div class="slide-content">
+          <h1>Мы работаем для вас</h1>
+          <p>Ежедневно с 10:00 до 22:00 — всегда готовы помочь!</p>
+          <a href="#contacts" class="button is-primary">Связаться с нами</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Процесс -->
+  <section class="process section">
+    <h2 class="title is-4 has-text-centered">Только долгосрочный эффект</h2>
+    <div class="columns is-multiline is-mobile process-columns">
+      <div class="column is-6-mobile is-3-tablet process-item">
+        <div class="process-image">
+          <img src="img/diagnose.png" alt="Диагностика">
+          <p>Для начала мы вас продиагностируем</p>
+        </div>
+      </div>
+      <div class="column is-6-mobile is-3-tablet process-item">
+        <div class="process-image">
+          <img src="img/fix.png" alt="Устранение">
+          <p>Устраним выявленные проблемы</p>
+        </div>
+      </div>
+      <div class="column is-6-mobile is-3-tablet process-item">
+        <div class="process-image">
+          <img src="img/result.png" alt="Закрепление">
+          <p>Закрепим полученный результат</p>
+        </div>
+      </div>
+      <div class="column is-6-mobile is-3-tablet process-item">
+        <div class="process-image">
+          <img src="img/support.png" alt="Поддержка">
+          <p>Научим вас поддерживать здоровье</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Промо -->
+  <section id="promo" class="promo">
+    <div class="container">
+      <p>У нас всегда есть интересные предложения</p>
+      <a href="#" class="button is-primary">АКЦИИ</a>
+    </div>
+  </section>
+
+  <!-- Здоровье (Услуги) -->
+  <section id="services" class="health section">
+    <h2 class="title is-4 has-text-centered">Мы ценим ваше здоровье и время</h2>
+    <p class="has-text-centered">В нашей клинике вы можете проходить услуги по отдельности, а можете приобрести комплекс оздоровительных процедур. Чтобы понимать, какая программа и в каком объеме вам нужна, сначала нужно пройти комплексную диагностику организма. Специалист определит не только очаг вашей проблемы, но и установит первопричины. В результате обследования будет составлена программа оздоровления.</p>
+    <div class="columns is-multiline is-mobile">
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/seas.png" alt="SEAS"></div>
+          <div class="card-content">
+            <p class="title is-5">Гимнастика SEAS при сколиозе</p>
+            <p>Подход к лечению сколиоза посредством физических упражнений, учитывая индивидуальные особенности пациента</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/insoles.png" alt="Стельки"></div>
+          <div class="card-content">
+            <p class="title is-5">Изготовление ортопедических стелек</p>
+            <p>Индивидуальное изготовление ортопедических стелек</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/cosmetology.png" alt="Косметология"></div>
+          <div class="card-content">
+            <p class="title is-5">Косметология</p>
+            <p>Аппаратная, инъекционная и эстетическая косметология</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/lfk.png" alt="ЛФК"></div>
+          <div class="card-content">
+            <p class="title is-5">Лечебная физкультура ЛФК</p>
+            <p>Лечебная физкультура — один из элементов современного комплексного лечения пациентов</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/manual.png" alt="Мануальная терапия"></div>
+          <div class="card-content">
+            <p class="title is-5">Мануальная терапия</p>
+            <p>Мануальный терапевт представляет серьезный комплексный подход к исцелению человека</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/massage.png" alt="Массаж"></div>
+          <div class="card-content">
+            <p class="title is-5">Массаж</p>
+            <p>Оздоровительный и расслабляющий массаж</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/osteopathy.png" alt="Остеопатия"></div>
+          <div class="card-content">
+            <p class="title is-5">Остеопатия</p>
+            <p>Ручной метод воздействия на структуры тела человека, позволяющий восстановить функции организма</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/rehab.png" alt="Реабилитация"></div>
+          <div class="card-content">
+            <p class="title is-5">Реабилитация</p>
+            <p>Комплекс мер для восстановления после травм и заболеваний</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="has-text-centered">
+      <a href="services.html" class="button is-primary">Услуги</a> <!-- Проверяем ссылку -->
+    </div>
+  </section>
+
+  <!-- Команда -->
+  <section id="team" class="team section">
+    <h2 class="title is-4 has-text-centered">НАША КОМАНДА</h2>
+    <p class="has-text-centered">Медицинский центр Атмосферика – место, где трудятся блестящие специалисты.</p>
+    <div class="team-carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/bashmakova.png" alt="Башмакова"></div>
+            <div class="card-content">
+              <p class="title is-5">Башмакова Олеся</p>
+              <p>Остеопат</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/gorlov.png" alt="Горлов"></div>
+            <div class="card-content">
+              <p class="title is-5">Горлов Вадим</p>
+              <p>Остеопат, невролог, мануальный терапевт, прикладной кинезиолог</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/ganova.png" alt="Ганова"></div>
+            <div class="card-content">
+              <p class="title is-5">Ганова Оксана</p>
+              <p>Врач-дерматолог, косметолог</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/stogova.png" alt="Стогова"></div>
+            <div class="card-content">
+              <p class="title is-5">Стогова Екатерина</p>
+              <p>Косметолог</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/ilinsky.png" alt="Ильинский"></div>
+            <div class="card-content">
+              <p class="title is-5">Ильинский Владислав</p>
+              <p>Фельдшер</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/velegurin.png" alt="Велегурин"></div>
+            <div class="card-content">
+              <p class="title is-5">Велегурин Иван</p>
+              <p>Инструктор ЛФК, АФК, SEAS</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/shatovkin.png" alt="Шатовкин"></div>
+            <div class="card-content">
+              <p class="title is-5">Шатовкин Александр</p>
+              <p>Реабилитация</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/dokuchaev.png" alt="Докучаев"></div>
+            <div class="card-content">
+              <p class="title is-5">Докучаев Сергей</p>
+              <p>Массажист, фельдшер</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Форма -->
+  <section id="contacts" class="form section">
+    <div class="form-container">
+      <div class="form-image">
+        <img src="img/form-image.jpg" alt="Запись на приём">
+        <div class="overlay-contact">
+          <div class="overlay-content">
+            <p><span class="icon"><img src="img/location.png" alt="Location"></span> г. Железнодорожный, мкр. Ольгино, ул. Главная, дом 5</p>
+            <p><span class="icon"><img src="img/phone.png" alt="Phone"></span> <a href="tel:+74951093614">+7(495) 109-36-14</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="form-content">
+        <h2 class="title is-4 has-text-centered">Запись на приём</h2>
+        <form id="contact-form">
+          <div class="field">
+            <label class="label">Имя</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Ваше имя" required>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Телефон</label>
+            <div class="control">
+              <input class="input" type="tel" id="phone" placeholder="+7 (___) ___-__-__" required>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Комментарий/пожелание (опционально)</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="Ваши пожелания"></textarea>
+            </div>
+          </div>
+          <div class="field">
+            <div class="control has-text-centered">
+              <button class="button is-primary" type="submit">Оставить заявку</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Соцсети -->
+  <div class="social-links">
+    <a href="https://wa.me/+74951093614" class="social-link whatsapp" target="_blank">
+      <img src="img/whatsapp.png" alt="WhatsApp">
+    </a>
+    <a href="https://t.me/+74951093614" class="social-link telegram" target="_blank">
+      <img src="img/telegram.png" alt="Telegram">
+    </a>
+  </div>
+
+  <!-- Кнопка "вверх" -->
+  <button class="scroll-top" onclick="scrollToTop()">
+    <img src="img/up-arrow.png" alt="Вверх">
+  </button>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="footer-main">
+      <div class="footer-column">
+        <h3>Атмосферика</h3>
+        <p>Центр лечения опорно-двигательного аппарата</p>
+        <p>г. Балашиха, мкр. Ольгино, ул. Главная, дом 5</p>
+        <p><a href="tel:+74951093614">+7(495) 109-36-14</a></p>
+        <p><a href="mailto:atmclinicru@yandex.ru">atmclinicru@yandex.ru</a></p>
+      </div>
+      <div class="footer-column">
+        <h3>Врачи</h3>
+        <a href="#">Врач-остеопат, рефлексотерапевт</a>
+        <a href="#">Реабилитолог</a>
+        <a href="#">Массажист</a>
+        <a href="#">Все врачи</a>
+      </div>
+      <div class="footer-column">
+        <h3>Услуги</h3>
+        <a href="services.html">Остеопатия</a> <!-- Проверяем ссылку -->
+        <a href="services.html">Лечебная физкультура (ЛФК)</a> <!-- Проверяем ссылку -->
+        <a href="services.html">Массаж</a> <!-- Проверяем ссылку -->
+        <a href="services.html">Реабилитация</a> <!-- Проверяем ссылку -->
+      </div>
+      <div class="footer-column">
+        <h3>О клинике</h3>
+        <a href="#">Врачи</a>
+        <a href="services.html">Услуги</a> <!-- Проверяем ссылку -->
+        <a href="#">Цены</a>
+        <a href="#">Вакансии</a>
+        <a href="#">Контакты</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2023 ООО "Красота и здоровье". Все права защищены</p>
+      <div class="footer-docs">
+        <a href="#">Условия пользования</a>
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Правила обработки персональных данных</a>
+        <a href="#">Согласие на обработку данных</a>
+      </div>
+      <div class="footer-rating">
+        <p>Рейтинг сервиса в Яндекс</p>
+        <p>5.0 <span class="stars">★★★★★</span></p>
+      </div>
+    </div>
+  </footer>
+</body>
+=======
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Атмосферика</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/slideshow.css">
+  <link rel="stylesheet" href="css/process.css">
+  <link rel="stylesheet" href="css/promo.css">
+  <link rel="stylesheet" href="css/health.css">
+  <link rel="stylesheet" href="css/team.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <script src="js/gsap.min.js"></script>
+  <script src="js/animations.js" defer></script>
+</head>
+<body>
+  <!-- Шапка -->
+  <header class="header">
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <span class="icon"><img src="img/location.png" alt="Location"></span>
+        <p>г. Железнодорожный, мкр. Ольгино, ул. Главная, дом 5</p>
+      </div>
+      <div class="top-bar-right">
+        <span class="icon"><img src="img/phone.png" alt="Phone"></span>
+        <p><a href="tel:+74951093614">+7(495) 109-36-14</a></p>
+        <span class="icon"><img src="img/email.png" alt="Email"></span>
+        <p><a href="mailto:atmclinicru@yandex.ru">atmclinicru@yandex.ru</a></p>
+      </div>
+    </div>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-logo" href="#">
+          <img src="img/logo.png" alt="Атмосферика">
+        </a>
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="#home">Главная</a>
+          <a class="navbar-item" href="services.html">Услуги</a> <!-- Проверяем ссылку -->
+          <a class="navbar-item" href="#team">Врачи</a>
+          <a class="navbar-item" href="#promo">Акции</a>
+          <a class="navbar-item" href="#prices">Цены</a>
+          <a class="navbar-item" href="#contacts">Контакты</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Слайд-шоу -->
+  <section id="home" class="slideshow">
+    <div class="slides">
+      <div class="slide active" style="background-image: url('img/slide1.jpg');">
+        <div class="slide-content">
+          <h1>Верни себе свободу движения!</h1>
+          <p>Эффективное лечение опорно-двигательного аппарата с результатом после первого сеанса.</p>
+          <a href="#contacts" class="button is-primary">Записаться на приём</a>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('img/slide2.jpg');">
+        <div class="slide-content">
+          <h1>Здоровье без боли</h1>
+          <p>Индивидуальный подход и проверенные методики для вашего восстановления.</p>
+          <a href="services.html" class="button is-primary">Узнать больше</a> <!-- Проверяем ссылку -->
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('img/slide3.jpg');">
+        <div class="slide-content">
+          <h1>Мы работаем для вас</h1>
+          <p>Ежедневно с 10:00 до 22:00 — всегда готовы помочь!</p>
+          <a href="#contacts" class="button is-primary">Связаться с нами</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Процесс -->
+  <section class="process section">
+    <h2 class="title is-4 has-text-centered">Только долгосрочный эффект</h2>
+    <div class="columns is-multiline is-mobile process-columns">
+      <div class="column is-6-mobile is-3-tablet process-item">
+        <div class="process-image">
+          <img src="img/diagnose.png" alt="Диагностика">
+          <p>Для начала мы вас продиагностируем</p>
+        </div>
+      </div>
+      <div class="column is-6-mobile is-3-tablet process-item">
+        <div class="process-image">
+          <img src="img/fix.png" alt="Устранение">
+          <p>Устраним выявленные проблемы</p>
+        </div>
+      </div>
+      <div class="column is-6-mobile is-3-tablet process-item">
+        <div class="process-image">
+          <img src="img/result.png" alt="Закрепление">
+          <p>Закрепим полученный результат</p>
+        </div>
+      </div>
+      <div class="column is-6-mobile is-3-tablet process-item">
+        <div class="process-image">
+          <img src="img/support.png" alt="Поддержка">
+          <p>Научим вас поддерживать здоровье</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Промо -->
+  <section id="promo" class="promo">
+    <div class="container">
+      <p>У нас всегда есть интересные предложения</p>
+      <a href="#" class="button is-primary">АКЦИИ</a>
+    </div>
+  </section>
+
+  <!-- Здоровье (Услуги) -->
+  <section id="services" class="health section">
+    <h2 class="title is-4 has-text-centered">Мы ценим ваше здоровье и время</h2>
+    <p class="has-text-centered">В нашей клинике вы можете проходить услуги по отдельности, а можете приобрести комплекс оздоровительных процедур. Чтобы понимать, какая программа и в каком объеме вам нужна, сначала нужно пройти комплексную диагностику организма. Специалист определит не только очаг вашей проблемы, но и установит первопричины. В результате обследования будет составлена программа оздоровления.</p>
+    <div class="columns is-multiline is-mobile">
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/seas.png" alt="SEAS"></div>
+          <div class="card-content">
+            <p class="title is-5">Гимнастика SEAS при сколиозе</p>
+            <p>Подход к лечению сколиоза посредством физических упражнений, учитывая индивидуальные особенности пациента</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/insoles.png" alt="Стельки"></div>
+          <div class="card-content">
+            <p class="title is-5">Изготовление ортопедических стелек</p>
+            <p>Индивидуальное изготовление ортопедических стелек</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/cosmetology.png" alt="Косметология"></div>
+          <div class="card-content">
+            <p class="title is-5">Косметология</p>
+            <p>Аппаратная, инъекционная и эстетическая косметология</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/lfk.png" alt="ЛФК"></div>
+          <div class="card-content">
+            <p class="title is-5">Лечебная физкультура ЛФК</p>
+            <p>Лечебная физкультура — один из элементов современного комплексного лечения пациентов</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/manual.png" alt="Мануальная терапия"></div>
+          <div class="card-content">
+            <p class="title is-5">Мануальная терапия</p>
+            <p>Мануальный терапевт представляет серьезный комплексный подход к исцелению человека</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/massage.png" alt="Массаж"></div>
+          <div class="card-content">
+            <p class="title is-5">Массаж</p>
+            <p>Оздоровительный и расслабляющий массаж</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/osteopathy.png" alt="Остеопатия"></div>
+          <div class="card-content">
+            <p class="title is-5">Остеопатия</p>
+            <p>Ручной метод воздействия на структуры тела человека, позволяющий восстановить функции организма</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-6-tablet is-12-mobile">
+        <div class="card">
+          <div class="card-image"><img src="img/rehab.png" alt="Реабилитация"></div>
+          <div class="card-content">
+            <p class="title is-5">Реабилитация</p>
+            <p>Комплекс мер для восстановления после травм и заболеваний</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="has-text-centered">
+      <a href="services.html" class="button is-primary">Услуги</a> <!-- Проверяем ссылку -->
+    </div>
+  </section>
+
+  <!-- Команда -->
+  <section id="team" class="team section">
+    <h2 class="title is-4 has-text-centered">НАША КОМАНДА</h2>
+    <p class="has-text-centered">Медицинский центр Атмосферика – место, где трудятся блестящие специалисты.</p>
+    <div class="team-carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/bashmakova.png" alt="Башмакова"></div>
+            <div class="card-content">
+              <p class="title is-5">Башмакова Олеся</p>
+              <p>Остеопат</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/gorlov.png" alt="Горлов"></div>
+            <div class="card-content">
+              <p class="title is-5">Горлов Вадим</p>
+              <p>Остеопат, невролог, мануальный терапевт, прикладной кинезиолог</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/ganova.png" alt="Ганова"></div>
+            <div class="card-content">
+              <p class="title is-5">Ганова Оксана</p>
+              <p>Врач-дерматолог, косметолог</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/stogova.png" alt="Стогова"></div>
+            <div class="card-content">
+              <p class="title is-5">Стогова Екатерина</p>
+              <p>Косметолог</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/ilinsky.png" alt="Ильинский"></div>
+            <div class="card-content">
+              <p class="title is-5">Ильинский Владислав</p>
+              <p>Фельдшер</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/velegurin.png" alt="Велегурин"></div>
+            <div class="card-content">
+              <p class="title is-5">Велегурин Иван</p>
+              <p>Инструктор ЛФК, АФК, SEAS</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/shatovkin.png" alt="Шатовкин"></div>
+            <div class="card-content">
+              <p class="title is-5">Шатовкин Александр</p>
+              <p>Реабилитация</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image"><img src="img/dokuchaev.png" alt="Докучаев"></div>
+            <div class="card-content">
+              <p class="title is-5">Докучаев Сергей</p>
+              <p>Массажист, фельдшер</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Форма -->
+  <section id="contacts" class="form section">
+    <div class="form-container">
+      <div class="form-image">
+        <img src="img/form-image.jpg" alt="Запись на приём">
+        <div class="overlay-contact">
+          <div class="overlay-content">
+            <p><span class="icon"><img src="img/location.png" alt="Location"></span> г. Железнодорожный, мкр. Ольгино, ул. Главная, дом 5</p>
+            <p><span class="icon"><img src="img/phone.png" alt="Phone"></span> <a href="tel:+74951093614">+7(495) 109-36-14</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="form-content">
+        <h2 class="title is-4 has-text-centered">Запись на приём</h2>
+        <form id="contact-form">
+          <div class="field">
+            <label class="label">Имя</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Ваше имя" required>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Телефон</label>
+            <div class="control">
+              <input class="input" type="tel" id="phone" placeholder="+7 (___) ___-__-__" required>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Комментарий/пожелание (опционально)</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="Ваши пожелания"></textarea>
+            </div>
+          </div>
+          <div class="field">
+            <div class="control has-text-centered">
+              <button class="button is-primary" type="submit">Оставить заявку</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Соцсети -->
+  <div class="social-links">
+    <a href="https://wa.me/+74951093614" class="social-link whatsapp" target="_blank">
+      <img src="img/whatsapp.png" alt="WhatsApp">
+    </a>
+    <a href="https://t.me/+74951093614" class="social-link telegram" target="_blank">
+      <img src="img/telegram.png" alt="Telegram">
+    </a>
+  </div>
+
+  <!-- Кнопка "вверх" -->
+  <button class="scroll-top" onclick="scrollToTop()">
+    <img src="img/up-arrow.png" alt="Вверх">
+  </button>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="footer-main">
+      <div class="footer-column">
+        <h3>Атмосферика</h3>
+        <p>Центр лечения опорно-двигательного аппарата</p>
+        <p>г. Балашиха, мкр. Ольгино, ул. Главная, дом 5</p>
+        <p><a href="tel:+74951093614">+7(495) 109-36-14</a></p>
+        <p><a href="mailto:atmclinicru@yandex.ru">atmclinicru@yandex.ru</a></p>
+      </div>
+      <div class="footer-column">
+        <h3>Врачи</h3>
+        <a href="#">Врач-остеопат, рефлексотерапевт</a>
+        <a href="#">Реабилитолог</a>
+        <a href="#">Массажист</a>
+        <a href="#">Все врачи</a>
+      </div>
+      <div class="footer-column">
+        <h3>Услуги</h3>
+        <a href="services.html">Остеопатия</a> <!-- Проверяем ссылку -->
+        <a href="services.html">Лечебная физкультура (ЛФК)</a> <!-- Проверяем ссылку -->
+        <a href="services.html">Массаж</a> <!-- Проверяем ссылку -->
+        <a href="services.html">Реабилитация</a> <!-- Проверяем ссылку -->
+      </div>
+      <div class="footer-column">
+        <h3>О клинике</h3>
+        <a href="#">Врачи</a>
+        <a href="services.html">Услуги</a> <!-- Проверяем ссылку -->
+        <a href="#">Цены</a>
+        <a href="#">Вакансии</a>
+        <a href="#">Контакты</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2023 ООО "Красота и здоровье". Все права защищены</p>
+      <div class="footer-docs">
+        <a href="#">Условия пользования</a>
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Правила обработки персональных данных</a>
+        <a href="#">Согласие на обработку данных</a>
+      </div>
+      <div class="footer-rating">
+        <p>Рейтинг сервиса в Яндекс</p>
+        <p>5.0 <span class="stars">★★★★★</span></p>
+      </div>
+    </div>
+  </footer>
+</body>
+>>>>>>> 5c298408f855ec194b1b63a2e484582bfcd0c2f6
+</html>

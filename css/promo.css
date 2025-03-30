@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+.promo {
+  background: #b3e5fc; /* Светло-синий */
+  padding: 2rem 0;
+  text-align: center;
+}
+.promo .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.promo p {
+  font-size: 1.5rem;
+  color: #01579b;
+  margin-bottom: 1rem;
+=======
+.promo {
+  background: #b3e5fc; /* Светло-синий */
+  padding: 2rem 0;
+  text-align: center;
+}
+.promo .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.promo p {
+  font-size: 1.5rem;
+  color: #01579b;
+  margin-bottom: 1rem;
+>>>>>>> 5c298408f855ec194b1b63a2e484582bfcd0c2f6
+}
