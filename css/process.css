@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .process {
   height: auto;
   background: #fff;
@@ -65,72 +64,5 @@
   .process-item:not(:last-child)::after {
     display: none; /* Убираем стрелки на мобильных устройствах */
   }
-=======
-.process {
-  height: auto;
-  background: #fff;
-  padding: 3rem 0;
-}
-.process-columns {
-  position: relative;
-}
-.process-item {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-}
-.process-image {
-  position: relative;
-  width: 150px; /* Увеличенный размер */
-  height: 150px;
-  border-radius: 20px; /* Округлые края */
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень для красоты */
-}
-.process-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Картинка заполняет контейнер */
-}
-.process-image p {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(2, 136, 209, 0.8); /* Полупрозрачный синий фон */
-  color: #fff;
-  text-align: center;
-  padding: 0.5rem;
-  font-size: 0.9rem;
-  margin: 0;
-  line-height: 1.2;
-}
-.process-item:not(:last-child)::after {
-  content: '';
-  position: absolute;
-  right: -20px;
-  top: 75px; /* Центрируем стрелку по новой высоте картинки */
-  width: 40px;
-  height: 20px;
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%230288d1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>') no-repeat center;
-  background-size: contain;
-}
-@media (max-width: 768px) {
-  .process {
-    height: auto;
-  }
-  .process-image {
-    width: 120px; /* Меньший размер на мобильных */
-    height: 120px;
-  }
-  .process-image p {
-    font-size: 0.8rem;
-    padding: 0.3rem;
-  }
-  .process-item:not(:last-child)::after {
-    display: none; /* Убираем стрелки на мобильных устройствах */
-  }
->>>>>>> 5c298408f855ec194b1b63a2e484582bfcd0c2f6
+
 }
